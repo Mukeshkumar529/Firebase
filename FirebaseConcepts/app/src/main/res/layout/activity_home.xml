@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Topic Name"
+        android:id="@+id/edt_Topic_Name"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Add Topic"
+        android:layout_marginLeft="120dp"
+        android:id="@+id/btn_add_topic"
+        android:layout_marginBottom="10dp"
+        />
+    
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:padding="10dp"
+        android:id="@+id/data_lv"
+        android:layout_marginBottom="20dp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Logout"
+        />
+
+</LinearLayout>
